@@ -36,10 +36,10 @@ body {
 
 .container-fluid {
   /* background-image: url('./img.jpg'); */
-  background-image: url('./cricket2.jpeg');
+  background-image: url('./image2.jpg');
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;  
+  background-size: cover;
   height: 100%;
 }
 
@@ -54,8 +54,8 @@ body {
   text-decoration: none;
   border-radius: 5px;
   font-weight: bold;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   cursor: pointer;
   animation: glowing 1300ms infinite;
 
@@ -118,7 +118,13 @@ body {
 .header {
   font-size: 30px;
   font-weight: 600;
-  margin: 35px 0;
+  margin: 35px 0 15px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.head{
+  font-size: 30px;
+  font-weight: 600;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
